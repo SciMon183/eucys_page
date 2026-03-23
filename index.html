@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EUCYS - Nasz Projekt</title>
+  <title>Kwantowe wspomaganie fotowoltaiki</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <h1>EUCYS - European Union Contest for Young Scientists</h1>
-      <p class="tagline">Prezentacja projektu, autorów, metodologii i raportu.</p>
+      <h1>Kwantowe wspomaganie fotowoltaiki</h1>
+      <p class="tagline">Szymon Jagiełło, Kamil Lauzer</p>
       <nav class="nav">
         <a href="#home" class="active">Home</a>
         <a href="#projekt">Projekt</a>
@@ -23,78 +23,115 @@
   <main class="container">
     <section id="home" class="section">
       <h2>Strona główna</h2>
-      <p>Witamy na stronie EUCYS. Znajdziesz tutaj ogólne informacje o naszym projekcie, główny raport do pobrania i galerię zdjęć.</p>
+      <p>
+        Projekt „Kwantowe wspomaganie fotowoltaiki” koncentruje się na zwiększeniu sprawności paneli słonecznych poprzez wykorzystanie nowoczesnych materiałów półprzewodnikowych, takich jak perowskity oraz warstwy z kropkami kwantowymi. W ramach badań analizowaliśmy pracę różnych typów ogniw fotowoltaicznych w zróżnicowanych warunkach oświetleniowych, temperaturowych oraz geometrycznych. Uzyskane wyniki pozwoliły określić najbardziej perspektywiczne kierunki rozwoju technologii tandemowych, które mogą znacząco zwiększyć efektywność przyszłych instalacji fotowoltaicznych.
+        Dodatkowo zestawialiśmy obserwacje eksperymentalne z wnioskami z modelowania, aby lepiej uzasadnić dobór konfiguracji materiałowych.
+      </p>
       <div class="home-grid">
-        <article class="card">
-          <img src="https://via.placeholder.com/560x320?text=EUCYS+Projekt" alt="EUCYS Projekt" />
+        <a class="card section-switch" href="#projekt" aria-label="Przejdź do sekcji Opis projektu">
+          <img id="oProjekcie" class="auto-image" src="https://via.placeholder.com/560x320?text=EUCYS+Projekt" alt="EUCYS Projekt" />
           <h3>O projekcie</h3>
           <p>Projekt rozwijamy z myślą o innowacjach w obszarze nauki, technologii i edukacji. Cel: przygotowanie koncepcji do konkursu EUCYS.</p>
-        </article>
-        <article class="card">
-          <img src="https://via.placeholder.com/560x320?text=Zespół" alt="Zespół EUCYS" />
+        </a>
+        <a class="card section-switch" href="#onas" aria-label="Przejdź do sekcji O nas">
+          <img id="naszZespol" class="auto-image" src="https://via.placeholder.com/560x320?text=Zespół" alt="Zespół EUCYS" />
           <h3>Nasz zespół</h3>
           <p>Współpracujemy jako para badawcza, tworząc eksperymenty i dokumentację. Wszystko w zgodzie z etyką naukową i standardami konkursu.</p>
-        </article>
-        <article class="card"> 
-          <img src="https://via.placeholder.com/560x320?text=Rezultaty" alt="Rezultaty projektu" />
-          <h3>Rezultaty</h3>
-          <p>Opracowaliśmy raport, prezentację i propozycję wdrożenia. Najważniejsze wnioski dostępne w raporcie do pobrania.</p>
-        </article>
+        </a>
+        <a class="card section-switch" href="#metodologia" aria-label="Przejdź do sekcji Metodologia">
+          <img id="metodologia" class="auto-image" src="https://via.placeholder.com/560x320?text=Metodologia" alt="Metodologia" />
+          <h3>Metodologia</h3>
+          <p>Seria eksperymentów laboratoryjnych oraz pomiary terenowe pozwoliły ocenić potencjał rozwiązań tandemowych w warunkach zbliżonych do rzeczywistych.</p>
+        </a>
       </div>
-      <a class="download-btn" href="report.pdf" download="EUCYS_Raport_Główny.pdf">Pobierz główny raport (PDF)</a>
+      <div class="download-section">
+        <a class="download-btn" href="report.pdf" download="EUCYS_Raport_Metodologia.pdf">Pobierz szczegółowy raport metodologii (PDF)</a>
+      </div>
+      <h3>Galeria</h3>
+      <div class="gallery">
+        <img id="gallery-1" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 11.34.16.png" src="https://via.placeholder.com/260x180?text=1" alt="Galeria - 1" />
+        <img id="gallery-2" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 11.34.39.png" src="https://via.placeholder.com/260x180?text=2" alt="Galeria - 2" />
+        <img id="gallery-3" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.22.52.png" src="https://via.placeholder.com/260x180?text=3" alt="Galeria - 3" />
+        <img id="gallery-4" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.23.01.png" src="https://via.placeholder.com/260x180?text=4" alt="Galeria - 4" />
+        <img id="gallery-5" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.23.08.png" src="https://via.placeholder.com/260x180?text=5" alt="Galeria - 5" />
+        <img id="gallery-6" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.23.17.png" src="https://via.placeholder.com/260x180?text=6" alt="Galeria - 6" />
+        <img id="gallery-7" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.23.31.png" src="https://via.placeholder.com/260x180?text=7" alt="Galeria - 7" />
+        <img id="gallery-8" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.23.41.png" src="https://via.placeholder.com/260x180?text=8" alt="Galeria - 8" />
+        <img id="gallery-9" class="auto-image" data-folder="galeria" data-filename="Screenshot 2026-03-23 at 12.24.05.png" src="https://via.placeholder.com/260x180?text=9" alt="Galeria - 9" />
+      </div>
     </section>
 
     <section id="projekt" class="section">
       <h2>Opis projektu</h2>
-      <p>Nasz projekt kieruje się do rozwiązania aktualnych problemów w obszarze <strong>zrównoważonego rozwoju</strong>, <strong>technologii medycznej</strong> i <strong>edukacji przyszłości</strong>. Przeprowadziliśmy analizę literatury, testy modelowe i symulacje w laboratorium.</p>
-      <ul>
-        <li>Cel: zaprojektowanie rozwiązania skalowalnego dla międzynarodowej społeczności.</li>
-        <li>Hipoteza: nowe podejście zmniejszy koszty i poprawi efektywność.</li>
-        <li>Metody: badania empiryczne, prototyp, modelowanie obliczeniowe.</li>
-      </ul>
-      <p>W tej sekcji znajdziesz szczegółowy opis: założenia, zakres działań, kryteria oceny, plan realizacji i przyszłe kierunki rozwoju.</p>
+      <p>
+        Projekt „Kwantowe wspomaganie fotowoltaiki” koncentruje się na analizie możliwości zwiększenia sprawności energetycznej ogniw fotowoltaicznych poprzez zastosowanie nowoczesnych materiałów półprzewodnikowych oraz konfiguracji wielowarstwowych typu tandem. W szczególności badania dotyczyły wykorzystania warstw zawierających kropki kwantowe oraz struktur perowskitowych jako elementów rozszerzających zakres absorpcji promieniowania elektromagnetycznego przez klasyczne ogniwa krzemowe.
+      </p>
+      <p>
+        Podstawowym problemem współczesnej fotowoltaiki jest ograniczona sprawność pojedynczych ogniw wynikająca z fizycznych właściwości materiałów półprzewodnikowych oraz niepełnego wykorzystania widma promieniowania słonecznego. Znaczna część energii docierającej do powierzchni paneli nie jest efektywnie konwertowana na energię elektryczną, co ogranicza możliwości dalszego zwiększania wydajności standardowych instalacji fotowoltaicznych. Z tego względu jednym z najbardziej obiecujących kierunków rozwoju technologii PV są rozwiązania tandemowe, umożliwiające jednoczesne wykorzystanie różnych zakresów widma promieniowania.
+      </p>
+      <p>
+        Celem projektu było przeanalizowanie wpływu zastosowania warstw pośrednich opartych na nanostrukturach półprzewodnikowych na parametry pracy układów fotowoltaicznych oraz określenie ich potencjału w kontekście zwiększania sprawności energetycznej instalacji solarnych. W ramach badań przeprowadzono serię eksperymentów laboratoryjnych oraz pomiarów terenowych z wykorzystaniem ogniw krzemowych typu Back-Contact, struktur perowskitowych oraz transparentnych warstw zawierających kropki kwantowe.
+      </p>
+      <p>
+        Zakres badań obejmował pomiary napięcia, natężenia prądu oraz generowanej mocy elektrycznej w zależności od warunków oświetlenia naturalnego i sztucznego, temperatury pracy modułów oraz kąta padania promieniowania. Analizowano również wpływ zastosowania dodatkowych warstw aktywnych na stabilność pracy układów oraz możliwość zwiększenia całkowitego uzysku energetycznego w warunkach rzeczywistej eksploatacji. Kluczowym elementem było porównanie charakterystyk uzyskanych dla poszczególnych wariantów materiałowych i konfiguracji.
+      </p>
+      <p>
+        Istotnym elementem projektu było porównanie efektywności pracy pojedynczych ogniw z konfiguracjami tandemowymi, w których zastosowanie warstw pośrednich pozwalało na lepsze wykorzystanie szerszego zakresu widma promieniowania elektromagnetycznego. Uzyskane wyniki potwierdziły, że zastosowanie materiałów nowej generacji może stanowić realny kierunek zwiększania sprawności przyszłych instalacji fotowoltaicznych, szczególnie w warunkach ograniczonego oświetlenia oraz w zastosowaniach wymagających wysokiej efektywności powierzchniowej.
+      </p>
+      <p>
+        Projekt ma charakter badawczo-eksperymentalny i stanowi element poszukiwań nowych rozwiązań technologicznych wspierających rozwój energetyki odnawialnej. Uzyskane rezultaty wskazują na duży potencjał wykorzystania struktur nanomateriałowych w przyszłych generacjach modułów fotowoltaicznych oraz potwierdzają zasadność dalszych badań w obszarze technologii tandemowych jako jednego z kluczowych kierunków rozwoju nowoczesnej fotowoltaiki.
+      </p>
     </section>
 
     <section id="onas" class="section">
       <h2>O nas</h2>
+      <p>
+        Jesteśmy zespołem realizującym projekt badawczy z zakresu nowoczesnych technologii odnawialnych źródeł energii. Nasze działania koncentrują się na analizie możliwości zwiększenia sprawności paneli fotowoltaicznych poprzez wykorzystanie materiałów nowej generacji oraz konfiguracji wielowarstwowych.
+        Koncentrowaliśmy się na weryfikacji rozwiązań w warunkach kontrolowanych oraz w scenariuszach naśladujących zastosowania praktyczne.
+      </p>
       <div class="team-grid">
         <article class="profile-card">
-          <img src="https://via.placeholder.com/300x300?text=Szymon+Jagie%C5%82%C5%82o" alt="Szymon Jagiełło" />
+          <img id="SzymonJagiełło" class="auto-image" src="https://via.placeholder.com/300x300?text=Szymon+Jagie%C5%82%C5%82o" alt="Szymon Jagiełło" />
           <h3>Szymon Jagiełło</h3>
-          <p>Współautor projektu i główny analityk danych. Specjalizacja: modelowanie numeryczne oraz optymalizacja.</p>
+          <p>Współautor projektu oraz główny analityk części obliczeniowej i eksperymentalnej. Odpowiadał za projektowanie stanowisk pomiarowych, analizę parametrów energetycznych badanych ogniw oraz interpretację wyników uzyskanych podczas badań laboratoryjnych i terenowych.</p>
         </article>
         <article class="profile-card">
-          <img src="https://via.placeholder.com/300x300?text=Kamil+Lauzer" alt="Kamil Lauzer" />
+          <img id="KamilLauzer" class="auto-image" src="https://via.placeholder.com/300x300?text=Kamil+Lauzer" alt="Kamil Lauzer" />
           <h3>Kamil Lauzer</h3>
-          <p>Współautor projektu, odpowiedzialny za eksperymenty i dokumentację. Specjalizacja: inżynieria systemów oraz komunikacja naukowa.</p>
+          <p>Współautor projektu odpowiedzialny za przygotowanie eksperymentów, konfigurację układów pomiarowych oraz opracowanie dokumentacji badawczej. Zajmował się analizą wpływu warunków oświetleniowych na sprawność energetyczną ogniw oraz testowaniem konfiguracji tandemowych.</p>
         </article>
       </div>
-      <h3>Galeria</h3>
-      <div class="gallery">
-        <img src="https://via.placeholder.com/260x180?text=Laboratorium" alt="Laboratorium" />
-        <img src="https://via.placeholder.com/260x180?text=Prezentacja" alt="Prezentacja" />
-        <img src="https://via.placeholder.com/260x180?text=Analiza" alt="Analiza" />
-      </div>
+      <p>
+        Projekt powstał jako odpowiedź na rosnące zapotrzebowanie na bardziej efektywne i dostępne technologie produkcji energii odnawialnej. W trakcie jego realizacji prowadziliśmy eksperymenty laboratoryjne, pomiary terenowe oraz analizy porównawcze różnych typów ogniw fotowoltaicznych.
+      </p>
     </section>
 
     <section id="metodologia" class="section">
       <h2>Metodologia</h2>
-      <p>Przedstawiamy stanowiska badawcze zaangażowane w projekt.</p>
+      <p>
+        Metodologia projektu obejmowała serię eksperymentów laboratoryjnych oraz pomiarów terenowych przeprowadzonych z wykorzystaniem różnych typów ogniw fotowoltaicznych: krzemowych, perowskitowych oraz struktur z warstwą kropek kwantowych. Analizowaliśmy wpływ temperatury pracy, kąta padania promieniowania oraz rodzaju źródła światła na generowaną moc elektryczną.
+      </p>
+      <p>
+        Szczególną uwagę poświęcono konfiguracjom tandemowym, które umożliwiają efektywniejsze wykorzystanie szerszego zakresu widma promieniowania słonecznego i stanowią jeden z najbardziej obiecujących kierunków rozwoju nowoczesnej fotowoltaiki. Dla spójności porównań standaryzowaliśmy warunki testów oraz sposób rejestracji danych.
+      </p>
       <div class="method-grid">
         <article class="method-card">
-          <img src="https://via.placeholder.com/300x220?text=Stanowisko+1" alt="Stanowisko 1" />
-          <h3>Stanowisko badawcze</h3>
-          <p>Przeprowadzanie testów i zbieranie danych w terenie oraz laboratorium. Wyposażenie: czujniki, analizatory, komputery.</p>
+          <img id="stanowisko1" class="auto-image" src="https://via.placeholder.com/300x220?text=Stanowisko+1" alt="Stanowisko 1" />
+          <div class="method-badge">Stanowisko badawcze 1</div>
+          <h3>Stanowisko badawcze 1</h3>
+          <p>Stanowisko badawcze przeznaczone było do pomiarów podstawowych parametrów elektrycznych badanych ogniw fotowoltaicznych. Umożliwiało ono analizę napięcia, natężenia oraz mocy generowanej przez poszczególne moduły w różnych warunkach oświetleniowych. W efekcie uzyskiwaliśmy bazę do porównań kolejnych konfiguracji.</p>
         </article>
         <article class="method-card">
-          <img src="https://via.placeholder.com/300x220?text=Stanowisko+2" alt="Stanowisko 2" />
-          <h3>Analiza i modelowanie</h3>
-          <p>Przeprowadzanie obliczeń, modelowanie wyników i weryfikacja hipotez przy użyciu narzędzi matematycznych i programowych.</p>
+          <img id="stanowisko2" class="auto-image" src="https://via.placeholder.com/300x220?text=Stanowisko+2" alt="Stanowisko 2" />
+          <div class="method-badge">Stanowisko badawcze 2</div>
+          <h3>Stanowisko badawcze 2</h3>
+          <p>Na stanowisku prowadzono badania wpływu temperatury pracy oraz kąta padania światła na sprawność energetyczną ogniw fotowoltaicznych. Wykorzystano regulowane źródła światła oraz elementy umożliwiające symulację rzeczywistych warunków pracy instalacji. Dzięki temu możliwa była ocena stabilności wydajności w warunkach zmiennych.</p>
         </article>
         <article class="method-card">
-          <img src="https://via.placeholder.com/300x220?text=Stanowisko+3" alt="Stanowisko 3" />
-          <h3>Wdrożenie i walidacja</h3>
-          <p>Testy końcowe, walidacja wyników, dokumentacja. Przygotowanie do prezentacji na EUCYS i publikacji wyników.</p>
+          <img id="stanowisko3" class="auto-image" src="https://via.placeholder.com/300x220?text=Stanowisko+3" alt="Stanowisko 3" />
+          <div class="method-badge">Stanowisko badawcze 3</div>
+          <h3>Stanowisko badawcze 3</h3>
+          <p>Stanowisko umożliwiało testowanie konfiguracji tandemowych łączących różne technologie półprzewodnikowe. Analizowano ich efektywność zarówno w warunkach laboratoryjnych, jak i przy oświetleniu naturalnym, co pozwoliło ocenić potencjał zastosowania takich rozwiązań w praktycznych instalacjach energetycznych. Wyniki stanowiły podstawę do wytypowania najbardziej obiecujących układów.</p>
         </article>
       </div>
       <div class="download-section">
